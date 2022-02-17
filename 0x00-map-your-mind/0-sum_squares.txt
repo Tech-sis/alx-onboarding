@@ -1,0 +1,14 @@
+This algorithm will calculate the sum of squares of given 
+input of numbers.
+
+sumOfSquares = 0
+num = INPUT ("Add numbers")
+
+
+FOR sumOfSquares = 0
+    squareOfInput = num x num 
+    sum = squareOfInput + squareOfInput
+    sumOfSquares = sum 
+
+   OUTPUT sumOfSquares
+END
