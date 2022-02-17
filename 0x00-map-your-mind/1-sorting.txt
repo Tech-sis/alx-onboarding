@@ -1,0 +1,22 @@
+This algorithm will read in three numbers 
+and write them in sorted order
+
+READ num1, num2, num 3
+    
+IF num1 < num 2
+   IF num2 < num 3
+      write num1, num2, num3
+   ELSE 
+       IF num3 < num1
+         write num3, num1, num2
+   Else
+      write num1, num3, num2
+ELSE
+   If num1 < num3
+      write num2 , num1, num3
+   Else
+      If num3 < num2
+        write num3, num2, num1
+      Else
+        write num2, num3, num1
+END

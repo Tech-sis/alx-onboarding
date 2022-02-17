@@ -1,0 +1,10 @@
+This algorithm will calculate a running sum
+
+Num = INPUT ("Add number")
+
+FOR sum = 0
+    IF Num is positive
+       sum = Num + Num
+    ElSE 
+       sum = Num
+END 
